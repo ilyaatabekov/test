@@ -1,0 +1,64 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/phone_main.css' %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'main/img/icon/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'main/img/icon/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'main/img/icon/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'main/img/icon/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'main/img/icon/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'main/img/icon/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'main/img/icon/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'main/img/icon/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'main/img/icon/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'main/img/icon/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'main/img/icon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'main/img/icon/avicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'main/img/icon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'main/img/icon/manifest.json' %}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{% static 'main/img/icon/ms-icon-144x144.png' %}">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+<header>
+    <div>
+        <img class="img" src="{% static 'main/img/logo_red.png' %}">
+    </div>
+</header>
+
+   </div>
+       <div class="content">
+           <div class="video">
+               <iframe class="video1" src="https://www.youtube.com/embed/BoN3_NCm07s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+
+<div class="s2">
+    <img src="{% static 'main/img/s2.png' %}" class="s2img">
+    <img src="{% static 'main/img/phone_1.png' %}" class="s2img_phone">
+</div>
+
+<div class="s3">
+    <a class="bottons3" href="{% url 'weak' %}">Начать тренировку</a>
+    <img src="{% static 'main/img/s3.png' %}" class="s3img">
+    <img src="{% static 'main/img/phone_2.png' %}" class="s3img_phone">
+</div>
+</div>
+
+
+<div class="footer">
+    <img class="imgs3" src="{% static 'main/img/logo_red.png' %}">
+</div>
+</body>
+</html>
